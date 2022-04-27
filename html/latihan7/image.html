@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image</title>
+</head>
+<body>
+    <!-- Gambar berasal dari internal resource -->
+    <img src="logo.png" alt="">
+    <!-- Gambar berasal dari external resource (hotlink) akan tetapi tidak disarankan -->
+    <!-- alt berfungsi sebagai penamaan teks pada gambar ketika gambarnya tidak muncul sesuai ekspetasi -->
+    <img src="logo.png" alt="avenger">
+    <!-- Cara mengatur ukuran width dimana satuan ukurannya dalam pixel dengan ukuran height menyesuaikan dari nilai width yang diatur -->
+    <img src="logo.png" width="200">
+    <!-- Cara menambahkan title pada gambar -->
+    <img src="logo.png" title="Logo Avengers">
+    <!-- Cara mengatur ukuran tinggi gambar dengan ukuran width yang disesuaikan dari height yang diatur -->
+    <img src="logo.png" height="200">
+    <!-- Dalam mengatur height dan weigth bisa dilakukan secara bersamaan dengan satuan px (default) atau % (terhadap ukuran relatif halamannya) -->
+    <img src="logo.png" width="20%" height="20%">
+    <!-- Hyperlink image -->
+    <a href="https://google.com">
+        <img src="logo.png">
+    </a>
+</body>
+</html>
